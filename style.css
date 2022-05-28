@@ -11,6 +11,7 @@
   height: 100%;
   background: #1e1e1e;
   transition: all .5s ease;
+  z-index:1
 }
 .sidebar header{
   font-size: 28px;
@@ -152,10 +153,7 @@ label #cancel{
 /*
     Auther: Abdelrhman Said
 */
-#mainicon{
-  margin: none !important;
-  border:none !important; 
-}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 
@@ -203,12 +201,7 @@ label #cancel{
   padding: none;
   margin: none;
 }
-.wrapper ul {
-  margin-top: 0;
-  margin-bottom:1rem;
-  padding-left: none;
 
-}
 
 .wrapper .tooltip::before {
   position: absolute;
