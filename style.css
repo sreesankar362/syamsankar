@@ -6,7 +6,7 @@
 }
 .sidebar{
   position: fixed;
-  width: 250px;
+  width: 240px;
   left: -250px;
   height: 100%;
   background: #1e1e1e;
@@ -85,6 +85,7 @@ label #cancel{
   visibility: visible;
 }
 @media(max-width : 860px){
+
   /* #sidelinediv{
     display: none;
   }
@@ -298,15 +299,15 @@ th,tr,td{
   padding: 4px;
 }
 th{
-  background-color:rgb(186, 226, 252);
+  background-color:rgba(0, 0, 0, 0.1);
   color: rgb(0, 0, 0);
   
 }
 tr:nth-child(even) {
-  background-color:rgba(14, 163, 250, 0.15);
+  background-color:rgba(0, 0, 0, 0.05);
 }
 tr:nth-child(odd) {
-  background-color:rgba(14, 163, 250, 0.07);
+  background-color:rgba(0, 0, 0, 0.095);
 }
 
 
@@ -422,3 +423,18 @@ height:128px;
 #publink{
   color: rgb(12, 11, 11);
 }
+
+#main_heading{
+  margin-top: 10px;
+   color: white;
+   background-color:rgb(0, 0, 0,.5);
+}
+
+#content{
+  background-color:rgb(0, 0, 0,.05);
+}
+#content2{
+  background-color:rgb(0, 0, 0,.09);
+}
+
+
